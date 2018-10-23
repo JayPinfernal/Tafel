@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "993313392483",
+    "firebase_url": "https://restaurant-management-7b08a.firebaseio.com",
+    "project_id": "restaurant-management-7b08a",
+    "storage_bucket": "restaurant-management-7b08a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993313392483:android:ef433e2f3eead871",
+        "android_client_info": {
+          "package_name": "com.example.devstudio_2.tafel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993313392483-88b19uug6f61fklrrjnblv3tf9e8p5sn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.devstudio_2.tafel",
+            "certificate_hash": "cad25453a9925b03d28e00d51036690a173ff0b0"
+          }
+        },
+        {
+          "client_id": "993313392483-90km469ak9bm1m0p00j6h63mj6jid3bc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5Dsa2FwE8c7upY2zxs285yGBx4a8Flk0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993313392483-90km469ak9bm1m0p00j6h63mj6jid3bc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993313392483:android:2c6c92c0e4e9c5d9",
+        "android_client_info": {
+          "package_name": "com.example.ishakadam.restrauntreservation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993313392483-jusete0rr6mrfh0ei1dnriqd4h8jqmo5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ishakadam.restrauntreservation",
+            "certificate_hash": "cad25453a9925b03d28e00d51036690a173ff0b0"
+          }
+        },
+        {
+          "client_id": "993313392483-90km469ak9bm1m0p00j6h63mj6jid3bc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5Dsa2FwE8c7upY2zxs285yGBx4a8Flk0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993313392483-90km469ak9bm1m0p00j6h63mj6jid3bc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

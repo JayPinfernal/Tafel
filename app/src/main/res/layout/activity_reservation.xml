@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.devstudio_2.tafel.Reservation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/time"
+            android:layout_width="341dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:inputType=""
+            android:text="Time" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/date"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:inputType=""
+            android:text="Date" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Refresh" />
+
+    <Button
+        android:id="@+id/reserve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reserve Table" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="233dp"
+        android:stretchColumns="1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="195dp">
+
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            <TextView
+                android:id="@+id/t1"
+                android:layout_width="131dp"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:padding="30dp"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="135dp"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:padding="30dp"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/t3"
+                android:layout_width="137dp"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:padding="30dp"
+                android:text="3" />
+
+        </TableRow>
+
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            <TextView
+                android:id="@+id/t4"
+                android:layout_width="131dp"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:padding="30dp"
+                android:text="4" />
+
+            <TextView
+                android:id="@+id/t5"
+                android:layout_width="135dp"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:padding="30dp"
+                android:text="5" />
+
+            <TextView
+                android:id="@+id/t6"
+                android:layout_width="137dp"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:padding="30dp"
+                android:text="6" />
+
+        </TableRow>
+
+        <TableRow>
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            <TextView
+                android:id="@+id/t7"
+                android:layout_width="131dp"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:padding="30dp"
+                android:text="7" />
+
+            <TextView
+                android:id="@+id/t8"
+                android:layout_width="135dp"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:padding="30dp"
+                android:text="8" />
+
+            <TextView
+                android:id="@+id/t9"
+                android:layout_width="137dp"
+                android:gravity="center"
+                android:onClick="onClick"
+                android:padding="30dp"
+                android:text="9" />
+
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

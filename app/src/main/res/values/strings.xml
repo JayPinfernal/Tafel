@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Tafel</string>
+    <string name="tafel">tafel</string>
+    <string name="title_activity_reservation">Reservation</string>
+    <string name="_9" />
+    <string name="_8" />
+    <string name="_7" />
+    <string name="_6" />
+    <string name="_5" />
+    <string name="_4" />
+    <string name="_3" />
+    <string name="_2" />
+    <string name="_1" />
+    <string name="reserve_table" />
+    <string name="check" />
+    <string name="title_activity_start_menu">StartMenu</string>
+</resources>
